@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./libs/css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group5-IAS</title>
+</head>
+<body class="bg-gray-100">
+
+    <!-- <header class="bg-gray-200 p-4 flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+            <span class="font-bold text-2xl"></span>
+        </div>
+        <nav class="space-x-6 text-gray-700 font-semibold mx-10">
+            <a href="#about" class="hover:text-blue-500">About</a>
+            <a href="#relevance" class="hover:text-blue-500">Relevance</a>
+            <a href="#conclusion" class="hover:text-blue-500">Conclusion</a>
+            <a href="#team" class="hover:text-blue-500">Teams</a>
+        </nav>
+    </header> -->
+
+    <nav class="fixed bg-zinc-300 p-4 w-full">
+        <div class="hidden sm:flex flex justify-between items-right">
+            <div class="flex space-x-12 ml-auto px-8">
+                <a href="#about" class="hover:text-blue-500">About</a>
+                <a href="#culture" class="hover:text-blue-500">Culture</a>
+                <a href="#relevance" class="hover:text-blue-500">Relevance</a>                
+                <a href="#conclusion" class="hover:text-blue-500">Conclusion</a>                
+                <a href="#team" class="hover:text-blue-500">Team</a>                
+            </div>           
+        </div>
+        <button class="sm:hidden flex items-center text-white focus:outline-none" onclick="toggleMenu()">
+            <svg class="w-7 h-7 my-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div id="mobileMenu" class="hidden sm:hidden">
+            <a href="#about" class="block hover:text-blue-500 py-3">About</a>
+            <a href="#culture" class="block hover:text-blue-500 py-3">Culture</a>
+            <a href="#relevance" class="block hover:text-blue-500 py-3">Relevance</a>
+            <a href="#conclusion" class="block hover:text-blue-500 py-3">Conclusion</a>
+            <a href="#team" class="block hover:text-blue-500 py-3">Team</a>
+        </div>
+    </nav>
+
+    <a id="about"></a>
+    <div class="min-h-svh flex flex-col md:flex-row">
+        <div class="mt-20 sm:mt-12 sm:flex-1 flex items-center justify-around flex-col">
+            <div class="w-10/12">
+                <h1 class="text-center text-7xl text-blue-500 mb-5">CULTURE</h1>
+                <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat similique, iusto reiciendis ad porro earum libero illo aliquid nesciunt voluptate dolorum, eaque vel soluta doloribus autem expedita amet esse quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consectetur repellat!</p>
+            </div>
+            <div class="w-10/12 flex items-center justify-center">
+                <img src="./assets/Group 11.png">
+            </div>
+        </div>
+        <div class="sm:flex-1 flex items-center justify-center">
+            <img src="./assets/3.png">
+        </div>
+    </div>
+
+    <div class="h-10 bg-zinc-300 flex ">
+        <h1 class="flex-1 flex items-center justify-center font-lg">DIVIDER</h1>
+    </div>
+
+    <a id="culture"></a>
+    <div class="min-h-svh flex flex-col md:flex-row">
+        <div class="flex-1 bg-blue-500 flex items-center justify-center">
+            <h1 class="text-white text-2xl text-center">CULTURE IN INFORMATION TECHNOLOGY</h1>
+        </div>
+    </div>
+
+    <a id="relevance"></a>
+    <div class="min-h-svh flex flex-col md:flex-row">
+        <div class="flex-1 bg-green-500 flex items-center justify-center">
+            <h1 class="text-white text-2xl">RELEVANTS</h1>
+        </div>
+    </div>
+
+    <a id="conclusion"></a>
+    <div class="min-h-svh flex flex-col md:flex-row">
+        <div class="flex-1 bg-blue-500 flex items-center justify-center">
+            <h1 class="text-white text-2xl">CONCLUSION</h1>
+        </div>
+    </div>
+
+    <a id="team"></a>
+    <div class="min-h-svh flex flex-col md:flex-row">
+        <div class="flex-1 bg-green-500 flex items-center justify-center">
+            <h1 class="text-white text-2xl">TEAM</h1>
+        </div>
+    </div>
+</body>
+<script src="./libs/js/index.js"></script>
+</html>
