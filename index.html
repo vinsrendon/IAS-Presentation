@@ -14,18 +14,6 @@
 </head>
 <body class="bg-gray-100">
 
-    <!-- <header class="bg-gray-200 p-4 flex items-center justify-between">
-        <div class="flex items-center space-x-2">
-            <span class="font-bold text-2xl"></span>
-        </div>
-        <nav class="space-x-6 text-gray-700 font-semibold mx-10">
-            <a href="#about" class="hover:text-blue-500">About</a>
-            <a href="#relevance" class="hover:text-blue-500">Relevance</a>
-            <a href="#conclusion" class="hover:text-blue-500">Conclusion</a>
-            <a href="#team" class="hover:text-blue-500">Teams</a>
-        </nav>
-    </header> -->
-
     <nav class="fixed bg-zinc-300 p-4 w-full z-50">
         <div class="hidden sm:flex flex justify-between items-right">
             <div class="flex space-x-12 ml-auto px-8">
@@ -58,7 +46,7 @@
                 <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat similique, iusto reiciendis ad porro earum libero illo aliquid nesciunt voluptate dolorum, eaque vel soluta doloribus autem expedita amet esse quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consectetur repellat!</p>
             </div>
             <div class="w-10/12 flex items-center justify-center">
-                <img src="./assets/Group 11.png">
+                <img src="./assets/11.png">
             </div>
         </div>
         <div class="sm:flex-1 flex items-center justify-center">
@@ -81,112 +69,84 @@
     <a id="relevance"></a>
     <div class="min-h-svh bg-blue-300 p-8 w-full">
         
-        <div class="mt-20 sm:mt-12 text-white mb-6">
+        <div class="mt-20 sm:mt-12 text-white text-center mb-12">
           <h1 class="text-6xl uppercase"><span class="text-blue-700">How is it</span> Relevant?</h1>
         </div>
         
-        <div class="flex flex-wrap sm:space-x-6 mb-6">
+        <!-- <div class="flex flex-wrap sm:space-x-6 mb-6">
           <button id="btn1" class="w-12 h-12 flex items-center hover:bg-blue-500 justify-center rounded-full bg-transparent font-bold border border-black">1</button>
           <button id="btn2" class="w-12 h-12 flex items-center hover:bg-blue-500 justify-center rounded-full bg-transparent font-bold border border-black">2</button>
           <button id="btn3" class="w-12 h-12 flex items-center hover:bg-blue-500 justify-center rounded-full bg-transparent font-bold border border-black">3</button>
           <button id="btn4" class="w-12 h-12 flex items-center hover:bg-blue-500 justify-center rounded-full bg-transparent font-bold border border-black">4</button>
           <button id="btn5" class="w-12 h-12 flex items-center hover:bg-blue-500 justify-center rounded-full bg-transparent font-bold border border-black">5</button>
           <button id="btn6" class="w-12 h-12 flex items-center hover:bg-blue-500 justify-center rounded-full bg-transparent font-bold border border-black">6</button>
-        </div>
+        </div> -->
         
-        <div class="relative w-full h-[30rem] mx-auto my-6 overflow-hidden">
-            <!-- page 1 -->
-        <div class=" w-full h-full px-6 flex flex-col lg:flex-row z-0 bg-blue-300" id="page">
-            <div class="w-2/3 sm:px-14 mt-12 text-2xl" style="font-family: Roboto;">
-              <h2 class="text-xl font-bold mb-4">Values and Beliefs</h2>
-              <p class="text-lg leading-relaxed text-justify">
-                  Cultural values and beliefs shape what is considered ethical behavior in different societies. For instance, in some cultures, privacy is highly valued, which influences strict regulations and practices around data protection. In contrast, other cultures might prioritize collective security over individual privacy, impacting how information security policies are framed.
-              </p>
+        <div class="relative w-full h-[30rem] mx-auto flex items-center justify-center">
+            <div class="h-[400px] flex justify-between">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4>Values and Beliefs</h4>
+                            <p>Cultural values and beliefs shape what is considered ethical behavior in different societies. For instance, in some cultures, privacy is highly valued, which influences strict regulations and practices around data protection. In contrast, other cultures might prioritize collective security over individual privacy, impacting how information security policies are framed.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2" >
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>Legal and Regulatory Frameworks</h4>
+                            <p>Different countries and regions have varying legal standards based on cultural norms. These laws govern how data should be managed, stored, and protected. For example, the General Data Protection Regulation (GDPR) in Europe reflects cultural emphasis on individual rights and privacy.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3" >
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Organizational Culture</h4>
+                            <p>Within companies, the internal culture—shaped by leadership, policies, and employee behaviors—can strongly impact how information security is approached. An organization that prioritizes ethical behavior and transparency will likely have stringent security practices and training programs to protect sensitive information.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4" >
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4>Globalization and Cross-Cultural Interactions</h4>
+                            <p>In a globalized world, information security professionals must navigate cross-cultural differences. Ethical dilemmas can arise when companies operate in multiple countries with differing norms. Understanding these differences is crucial for implementing effective and culturally sensitive security measures.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c5" >
+                <label for="c5" class="card">
+                    <div class="row">
+                        <div class="icon">5</div>
+                        <div class="description">
+                            <h4>Education and Awareness</h4>
+                            <p>Cultural attitudes towards education and awareness around information security also vary. Some cultures may place a higher importance on continuous learning and training in ethical practices, ensuring that employees stay updated on the latest security threats and ethical guidelines.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c6" >
+                <label for="c6" class="card">
+                    <div class="row">
+                        <div class="icon">6</div>
+                        <div class="description">
+                            <h4>Community Norms and Practices</h4>
+                            <p>Cultural norms within professional communities (like IT and cybersecurity fields) establish standards for ethical behavior. Professional organizations often develop codes of conduct that reflect these norms, guiding individuals on how to handle ethical dilemmas in information security.</p>
+                        </div>
+                    </div>
+                </label>
             </div>
-            <div class="w-4/5">
-              <div class="w-full h-full bg-gray-400 rounded-lg flex items-center justify-center">              
-                <!-- <span class="text-gray-500 text-sm">Image Placeholder</span> -->
-              </div>
-            </div>
-          </div>
-  
-          <!-- page 2 -->
-          <div class="absolute w-full h-full px-6 flex flex-col lg:flex-row z-0 bg-blue-300" id="page">
-              <div class="w-2/3 sm:px-14 mt-12 text-2xl" style="font-family: Roboto;">
-                <h2 class="text-xl font-bold mb-4">Legal and Regulatory Frameworks</h2>
-                <p class="text-lg leading-relaxed text-justify">
-                    Different countries and regions have varying legal standards based on cultural norms. These laws govern how data should be managed, stored, and protected. For example, the General Data Protection Regulation (GDPR) in Europe reflects cultural emphasis on individual rights and privacy.
-                </p>
-              </div>
-              <div class="w-4/5">
-                <div class="w-full h-full bg-gray-400 rounded-lg flex items-center justify-center">              
-                  <!-- <span class="text-gray-500 text-sm">Image Placeholder</span> -->
-                </div>
-              </div>
-          </div>
-
-          <!-- page 3 -->
-          <div class="absolute w-full h-full px-6 flex flex-col lg:flex-row z-0 bg-blue-300" id="page">
-                <div class="w-2/3 sm:px-14 mt-12 text-2xl" style="font-family: Roboto;">
-                <h2 class="text-xl font-bold mb-4">Organizational Culture</h2>
-                <p class="text-lg leading-relaxed text-justify">
-                    Within companies, the internal culture—shaped by leadership, policies, and employee behaviors—can strongly impact how information security is approached. An organization that prioritizes ethical behavior and transparency will likely have stringent security practices and training programs to protect sensitive information..
-                </p>
-                </div>
-                <div class="w-4/5">
-                <div class="w-full h-full bg-gray-400 rounded-lg flex items-center justify-center">              
-                    <!-- <span class="text-gray-500 text-sm">Image Placeholder</span> -->
-                </div>
-                </div>
-            </div>
-
-            <!-- page 4 -->
-            <div class="absolute w-full h-full px-6 flex flex-col lg:flex-row z-0 bg-blue-300" id="page">
-                <div class="w-2/3 sm:px-14 mt-12 text-2xl" style="font-family: Roboto;">
-                <h2 class="text-xl font-bold mb-4">Globalization and Cross-Cultural Interactions</h2>
-                <p class="text-lg leading-relaxed text-justify">
-                    In a globalized world, information security professionals must navigate cross-cultural differences. Ethical dilemmas can arise when companies operate in multiple countries with differing norms. Understanding these differences is crucial for implementing effective and culturally sensitive security measures.
-                </p>
-                </div>
-                <div class="w-4/5">
-                <div class="w-full h-full bg-gray-400 rounded-lg flex items-center justify-center">              
-                    <!-- <span class="text-gray-500 text-sm">Image Placeholder</span> -->
-                </div>
-                </div>
-            </div>
-
-            <!-- page 5 -->
-            <div class="absolute w-full h-full px-6 flex flex-col lg:flex-row z-0 bg-blue-300" id="page">
-                <div class="w-2/3 sm:px-14 mt-12 text-2xl" style="font-family: Roboto;">
-                <h2 class="text-xl font-bold mb-4">Education and Awareness</h2>
-                <p class="text-lg leading-relaxed text-justify">
-                    Cultural attitudes towards education and awareness around information security also vary. Some cultures may place a higher importance on continuous learning and training in ethical practices, ensuring that employees stay updated on the latest security threats and ethical guidelines.
-                </p>
-                </div>
-                <div class="w-4/5">
-                <div class="w-full h-full bg-gray-400 rounded-lg flex items-center justify-center">              
-                    <!-- <span class="text-gray-500 text-sm">Image Placeholder</span> -->
-                </div>
-                </div>
-            </div>
-
-            <!-- page 6 -->
-            <div class="absolute w-full h-full px-6 flex flex-col lg:flex-row z-0 bg-blue-300" id="page">
-                <div class="w-2/3 sm:px-14 mt-12 text-2xl" style="font-family: Roboto;">
-                <h2 class="text-xl font-bold mb-4">Community Norms and Practices</h2>
-                <p class="text-lg leading-relaxed text-justify">
-                    Cultural norms within professional communities (like IT and cybersecurity fields) establish standards for ethical behavior. Professional organizations often develop codes of conduct that reflect these norms, guiding individuals on how to handle ethical dilemmas in information security.
-                </p>
-                </div>
-                <div class="w-4/5">
-                <div class="w-full h-full bg-gray-400 rounded-lg flex items-center justify-center">              
-                    <!-- <span class="text-gray-500 text-sm">Image Placeholder</span> -->
-                </div>
-                </div>
-            </div>
-        </div>        
+        </div>
     </div>
-
     <a id="conclusion"></a>
     <div class="min-h-svh flex flex-col md:flex-row">
         <div class="sm:flex-1 flex items-center justify-center">
